@@ -1,0 +1,381 @@
+html
+{
+	height: 100%;
+	width:100%;
+}
+body
+{
+	background: linear-gradient(#A6BFCB,#3C5F70);
+}
+#container
+{
+	display: table;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	position:fixed;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+#middle 
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+#inner 
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	/*min-height:580px;*/
+	height:auto;
+	width:600px;
+	background-color:white;
+	-webkit-box-shadow: 0px 0px 36px 11px rgba(0,0,0,0.33);
+	-moz-box-shadow: 0px 0px 36px 11px rgba(0,0,0,0.33);
+	box-shadow: 0px 0px 36px 11px rgba(0,0,0,0.33);
+	border-radius:10px;
+	background-color:white;
+}
+#loginBackgroundImage
+{
+	height:150px;
+	width:100%;
+	background-position: center;
+    background-size: cover;
+    background-image: url("../images/background.png");
+	display:inline-block;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#loginText
+{
+	width:100%;
+	height:100%;
+	background-color:#2f444e;
+	-moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-family:'Montserrat',sans-serif;
+	color:white;
+	text-align:center;
+	line-height:150px;
+	font-weight:bold;
+	font-size:230%;
+	text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
+}
+.inputContainer
+{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	transition:all .5s;
+	-moz-transition-property: all;  
+	-moz-transition-duration: .5s;
+}
+#resultLogin
+{
+	color:red;
+	text-align:left;
+	font-family:'Montserrat',sans-serif;
+	font-size:90%;
+	padding-left:143px;
+	box-sizing:border-box;
+	background-position:116px center;
+    background-image: url("../images/warning.png");
+	font-weight:bold;
+	background-repeat:no-repeat;
+}
+#username
+{
+	width:60%;
+	display:inline-block;
+	float:center;
+	height:40px;
+	line-height:40px;
+	border:none;
+	border-bottom:2px solid #ddd;
+	background-color:transparent;
+	background-position:10px center;
+    background-image: url("../images/user.png");
+	background-repeat:no-repeat;
+	padding-left:44px;
+	font-family:'Montserrat',sans-serif;
+	color:gray;
+	font-size:95%;
+	outline:none;
+	transition:all .5s;
+	-moz-transition-property: all;  
+	-moz-transition-duration: .5s;
+}
+#username:hover
+{
+	color:#2f444e;
+	border-bottom:2px solid #2f444e;
+}
+#password
+{
+	width:60%;
+	display:inline-block;
+	float:center;
+	height:40px;
+	line-height:40px;
+	border:none;
+	border-bottom:2px solid #ddd;
+	background-color:transparent;
+	background-position:10px center;
+    background-image: url("../images/password.png");
+	background-repeat:no-repeat;
+	padding-left:44px;
+	font-family:'Montserrat',sans-serif;
+	color:gray;
+	font-size:95%;
+	outline:none;
+	transition:all .5s;
+	-moz-transition-property: all;  
+	-moz-transition-duration: .5s;
+}
+#password:hover
+{
+	color:#2f444e;
+	border-bottom:2px solid #2f444e;
+}
+#vecchiaPassword
+{
+	width:60%;
+	display:inline-block;
+	float:center;
+	height:40px;
+	line-height:40px;
+	border:none;
+	border-bottom:2px solid #ddd;
+	background-color:transparent;
+	background-position:10px center;
+    background-image: url("../images/password.png");
+	background-repeat:no-repeat;
+	padding-left:44px;
+	font-family:'Montserrat',sans-serif;
+	color:gray;
+	font-size:95%;
+	outline:none;
+	transition:all .5s;
+	-moz-transition-property: all;  
+	-moz-transition-duration: .5s;
+}
+#vecchiaPassword:hover
+{
+	color:#2f444e;
+	border-bottom:2px solid #2f444e;
+}
+#confermaPassword
+{
+	width:60%;
+	display:inline-block;
+	float:center;
+	height:40px;
+	line-height:40px;
+	border:none;
+	border-bottom:2px solid #ddd;
+	background-color:transparent;
+	background-position:10px center;
+    background-image: url("../images/password.png");
+	background-repeat:no-repeat;
+	padding-left:44px;
+	font-family:'Montserrat',sans-serif;
+	color:gray;
+	font-size:95%;
+	outline:none;
+	transition:all .5s;
+	-moz-transition-property: all;  
+	-moz-transition-duration: .5s;
+}
+#confermaPassword:hover
+{
+	color:#2f444e;
+	border-bottom:2px solid #2f444e;
+}
+/*CHECKBOX*/
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+label 
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+input[type=checkbox].css-checkbox 
+{
+	position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; 
+    width:1px; 
+    margin:-1px; 
+    padding:0;
+    border:0;
+}
+input[type=checkbox].css-checkbox + label.css-label 
+{
+	padding-left:20px;
+	height:15px; 
+	display:inline-block;
+	line-height:15px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	vertical-align:middle;
+	cursor:pointer;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label 
+{
+	background-position: 0 -15px;
+}
+.css-label
+{
+	width:60%;
+	text-align:left;
+	background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);
+	font-family:'Montserrat',sans-serif;
+	color:gray;
+	font-size:95%;
+	margin-left:8px;
+}
+.css-label:hover
+{
+	color:#2f444e;
+}
+.lite-gray-check
+{
+	background-image:url(http://csscheckbox.com/checkboxes/lite-gray-check.png);
+}
+input[type=checkbox].css-checkbox.med + label.css-label.med 
+{
+    height:17px; 
+	display:inline-block;
+	line-height:17px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	vertical-align:middle;
+    cursor:pointer;
+}
+input[type=checkbox].css-checkbox.med:checked + label.css-label.med 
+{
+    background-position: 0 -17px;
+}
+input[type=checkbox].css-checkbox.sme + label.css-label.sme 
+{
+    height:16px; 
+	display:inline-block;
+	line-height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.sme:checked + label.css-label.sme
+{
+    background-position: 0 -16px;
+}
+input[type=checkbox].css-checkbox.lrg + label.css-label.lrg 
+{
+    height:20px; 
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+    cursor:pointer;
+}
+input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg
+{
+    background-position: 0 -20px;
+}
+#containerAccediApplicazioni
+{
+	margin-top:16px;
+	border:none;
+	display:inline-block;
+	text-align:left;
+	float:center;
+	width:100%;
+	height:auto;
+	box-sizing:border-box;
+	white-space:nowrap;
+	padding-bottom:36px;
+	background-color:#EBEBEB;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#titleAccediApplicazioni
+{
+	box-sizing:border-box;
+	overflow:hidden;
+	width:100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Montserrat',sans-serif;
+	font-size:105%;
+	color:#ddd;
+	font-weight:normal;
+	background-color:#2f444e;
+	border:none;
+	font-weight:normal;
+}
+.btnApplicazione
+{
+	display:inline-block;
+	overflow:hidden;
+	margin-top:36px;
+	height:70px;
+	line-height:70px;
+	width:200px;
+	background:#EBEBEB;
+	background: linear-gradient(to left, #EBEBEB 50%, #2f444e 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+	border:2px solid #2f444e;
+	cursor:pointer;
+	font-family: 'Montserrat',sans-serif;
+	font-size:95%;
+	color:#2f444e;
+	transition:all .5s;
+	-moz-transition-property: all;  
+	-moz-transition-duration: .5s;
+	text-align:center;
+	outline:none;
+	box-sizing:border-box;
+	-webkit-box-shadow: 0px 0px 12px 2px #2f444e;
+    box-shadow: 0px 0px 12px 2px #2f444e;
+	-moz-box-shadow: 0px 0px 12px 2px #2f444e;
+}
+.btnApplicazione:hover
+{
+	color:#EBEBEB;
+	background-position:left bottom;
+}
+.btnApplicazioneLeft
+{
+	float:left;
+	margin-left:80px;
+}
+.btnApplicazioneRight
+{
+	float:right;
+	margin-right:80px;
+}
+#btnCambiaPassword
+{
+	margin-left:200px;
+	margin-top:35px;
+	float:left;
+}
